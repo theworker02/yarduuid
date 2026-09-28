@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/yarduuid",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Yard timestamps and uuid durations for scripts and CI receipts.",
+  "bin": {
+    "yarduuid": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/yarduuid.git"
+  },
+  "homepage": "https://theworker02.github.io/yarduuid/",
+  "keywords": [
+    "yard",
+    "uuid",
+    "time",
+    "cli",
+    "toolkit"
+  ]
+}
